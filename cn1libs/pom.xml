@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>  <artifactId>myapplication</artifactId>
+        <groupId>com.zomuhtech.cn.features</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.zomuhtech.cn.features</groupId>
+    <artifactId>myapplication-cn1libs</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>myapplication-cn1libs</name>
+    <profiles>
+    <!-- Profile injected by install-cn1lib goal for AnimatedGifSupport cn1lib -->
+<profile>
+  <id>AnimatedGifSupport.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/AnimatedGifSupport/pom.xml</exists></file>
+  </activation>  <modules><module>AnimatedGifSupport</module></modules>
+</profile>
+<profile>
+  <id>AnimatedGifSupport.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/AnimatedGifSupport/pom.xml</exists></file>
+  </activation>  <modules><module>AnimatedGifSupport</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for BouncyCastleCN1Lib cn1lib -->
+<profile>
+  <id>BouncyCastleCN1Lib.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/BouncyCastleCN1Lib/pom.xml</exists></file>
+  </activation>  <modules><module>BouncyCastleCN1Lib</module></modules>
+</profile>
+<profile>
+  <id>BouncyCastleCN1Lib.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/BouncyCastleCN1Lib/pom.xml</exists></file>
+  </activation>  <modules><module>BouncyCastleCN1Lib</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for cn1-codescan cn1lib -->
+<profile>
+  <id>cn1-codescan.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/cn1-codescan/pom.xml</exists></file>
+  </activation>  <modules><module>cn1-codescan</module></modules>
+</profile>
+<profile>
+  <id>cn1-codescan.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/cn1-codescan/pom.xml</exists></file>
+  </activation>  <modules><module>cn1-codescan</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for CN1FileChooser cn1lib -->
+<profile>
+  <id>CN1FileChooser.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/CN1FileChooser/pom.xml</exists></file>
+  </activation>  <modules><module>CN1FileChooser</module></modules>
+</profile>
+<profile>
+  <id>CN1FileChooser.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/CN1FileChooser/pom.xml</exists></file>
+  </activation>  <modules><module>CN1FileChooser</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for CN1JSON cn1lib -->
+<profile>
+  <id>CN1JSON.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/CN1JSON/pom.xml</exists></file>
+  </activation>  <modules><module>CN1JSON</module></modules>
+</profile>
+<profile>
+  <id>CN1JSON.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/CN1JSON/pom.xml</exists></file>
+  </activation>  <modules><module>CN1JSON</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for CN1Sensors cn1lib -->
+<profile>
+  <id>CN1Sensors.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/CN1Sensors/pom.xml</exists></file>
+  </activation>  <modules><module>CN1Sensors</module></modules>
+</profile>
+<profile>
+  <id>CN1Sensors.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/CN1Sensors/pom.xml</exists></file>
+  </activation>  <modules><module>CN1Sensors</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for CodeRAD cn1lib -->
+<profile>
+  <id>CodeRAD.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/CodeRAD/pom.xml</exists></file>
+  </activation>  <modules><module>CodeRAD</module></modules>
+</profile>
+<profile>
+  <id>CodeRAD.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/CodeRAD/pom.xml</exists></file>
+  </activation>  <modules><module>CodeRAD</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for FingerprintScanner cn1lib -->
+<profile>
+  <id>FingerprintScanner.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/FingerprintScanner/pom.xml</exists></file>
+  </activation>  <modules><module>FingerprintScanner</module></modules>
+</profile>
+<profile>
+  <id>FingerprintScanner.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/FingerprintScanner/pom.xml</exists></file>
+  </activation>  <modules><module>FingerprintScanner</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for GoogleMaps cn1lib -->
+<profile>
+  <id>GoogleMaps.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/GoogleMaps/pom.xml</exists></file>
+  </activation>  <modules><module>GoogleMaps</module></modules>
+</profile>
+<profile>
+  <id>GoogleMaps.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/GoogleMaps/pom.xml</exists></file>
+  </activation>  <modules><module>GoogleMaps</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for PhotoCropper cn1lib -->
+<profile>
+  <id>PhotoCropper.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/PhotoCropper/pom.xml</exists></file>
+  </activation>  <modules><module>PhotoCropper</module></modules>
+</profile>
+<profile>
+  <id>PhotoCropper.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/PhotoCropper/pom.xml</exists></file>
+  </activation>  <modules><module>PhotoCropper</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for RADChatRoom cn1lib -->
+<profile>
+  <id>RADChatRoom.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/RADChatRoom/pom.xml</exists></file>
+  </activation>  <modules><module>RADChatRoom</module></modules>
+</profile>
+<profile>
+  <id>RADChatRoom.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/RADChatRoom/pom.xml</exists></file>
+  </activation>  <modules><module>RADChatRoom</module></modules>
+</profile>
+
+<!-- Profile injected by install-cn1lib goal for ZTDesigns cn1lib -->
+<profile>
+  <id>ZTDesigns.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/ZTDesigns/pom.xml</exists></file>
+  </activation>  <modules><module>ZTDesigns</module></modules>
+</profile>
+<profile>
+  <id>ZTDesigns.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/ZTDesigns/pom.xml</exists></file>
+  </activation>  <modules><module>ZTDesigns</module></modules>
+</profile>
+
+</profiles>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<GeocodeResponse>
+    <status>OK</status>
+    <result>
+        
+        <address_component>
+            <long_name>City A</long_name>
+            <short_name>AA</short_name>
+            <type>locality</type>
+            <type>political</type>
+        </address_component>
+        
+         <address_component>
+            <long_name>Region R</long_name>
+            <short_name>BB</short_name>
+            <type>administrative_area_level_1</type>
+            <type>political</type>
+         </address_component>
+        
+        <address_component>
+            <long_name>Country C</long_name>
+            <short_name>CC</short_name>
+            <type>country</type>
+            <type>political</type>
+        </address_component>
+        
+         <address_component>
+            <long_name>Country D</long_name>
+            <short_name>DD</short_name>
+            <type>country</type>
+            <type>political</type>
+        </address_component>
+        
+    </result>
+</GeocodeResponse>

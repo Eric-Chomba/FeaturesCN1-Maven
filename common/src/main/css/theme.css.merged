@@ -1,0 +1,2659 @@
+
+/* C:\Users\Eric\Pjct\CodenameOne\Ant\FeaturesCN\lib\impl\css\CodeRAD\theme.css */
+:root {
+    --rad-main-font: 'native:MainRegular';
+    --rad-main-font-light: 'native:MainLight';
+    --rad-main-font-bold: 'native:MainBold';
+    --rad-main-font-size: 2.5mm;
+    --rad-main-font-size-small: 1.5mm;
+}
+
+PopupMenu {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 1mm;
+    padding:0;
+    margin:0;
+}
+
+PopupMenuContent {
+    background-color:transparent;
+    margin: 0;
+    padding:2mm;
+    
+}
+
+PopupMenuTitle {
+    padding:0;
+    margin:0;
+    
+}
+
+SwipeableContainerButton {
+    color: white;
+    background-color: #f44336;
+    font-family: 'native:MainRegular';
+    font-size: 5mm;
+}
+
+ContactListLine1 {
+    cn1-derive: 'MultiLine1';
+    font-family: 'native:MainLight';
+    font-size: 5mm;
+    
+}
+
+ContactListLine2 {
+    cn1-derive: 'MultiLine2'; 
+    font-family: 'native:MainLight';
+    font-size: 4mm;
+}
+
+AccountAvatarsTitleComponentText {
+    font-family: 'native:MainLight';
+    font-size: 1.5mm;
+    color: #666666; 
+}
+
+
+
+
+SettingsForm {
+    padding:0;
+    margin:0;
+    
+}
+SettingsFormSection {
+    padding:0;
+    margin: 1mm 0 1mm 0;
+   
+}
+SettingsFormAction {
+    background-color:white;
+    margin:0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #aaaaaa;
+    padding:2mm;
+}
+
+SettingsFormAction.pressed {
+    background-color: #cccccc;
+}
+
+SettingsFormActionLabel {
+    font-family: var(--rad-main-font);
+    font-size: var(--rad-main-font-size);
+    color: black;
+}
+
+SettingsFormActionValue {
+    font-family: var(--rad-main-font-light);
+    font-size: var(--rad-main-font-size);
+    color: #888888;
+}
+
+SettingsFormActionArrowButton {
+    font-family: var(--rad-main-font-light);
+    font-size: var(--rad-main-font-size);
+    color: #cccccc;
+}
+
+SettingsFormSectionLabel {
+    font-family: var(--rad-main-font-light);
+    font-size: var(--rad-main-font-size-small);
+    color: #666666;
+    
+    padding: 2mm 1mm 2mm 1mm;
+}
+
+SettingsFormActionDescriptionText {
+    font-size: 1.5mm;
+    font-family: var(--rad-main-font-light);
+    font-family: 1.5mm;
+    color: #888888;
+}
+
+SettingsFormActionDescription {
+    padding:0;
+    margin:0;
+}
+
+SettingsFormButtonList {
+	padding:0;
+	margin:0;
+}
+
+SettingsFormButtonListCell {
+	background-color:white;
+    margin:0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 2mm;
+    font-size: var(--rad-main-font-size);
+    font-family: var(--rad-main-font);
+}
+
+FieldDescriptionText {
+    font-size: var(--rad-main-font-size);
+    font-family: var(--rad-main-font);
+    color: #666666;
+}
+/* end C:\Users\Eric\Pjct\CodenameOne\Ant\FeaturesCN\lib\impl\css\CodeRAD\theme.css*/
+
+/* C:\Users\Eric\Pjct\CodenameOne\Ant\FeaturesCN\lib\impl\css\RADChatRoom\theme.css */
+ChatBubbleTextOwn {
+    font-family: 'native:MainLight';
+    font-size: 2.5mm;
+    color: white;
+    margin:0;
+    padding:0;
+}
+
+ChatBubbleTextOwnDesktop {
+    cn1-derive: 'ChatBubbleTextOwn';
+    font-size: 3.5mm;
+}
+
+ChatBubbleTextOther {
+    font-family: 'native:MainLight';
+    font-size: 2.5mm;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+ChatBubbleTextOtherDesktop {
+    cn1-derive: 'ChatBubbleTextOther';
+    font-size: 3.5mm;
+}
+
+ChatBubbleSpanLabelOther {
+    padding: 1mm 1mm 1mm 3.5mm;
+    background-color: rgb(229, 229, 234);
+}
+
+ChatBubbleSpanLabelOwn {
+    padding: 1mm 2.5mm 1mm 1mm;
+    background-color: rgb(21, 126, 245);
+}
+
+ChatBubblePostedBy, ChatBubbleDate {
+    font-family: 'native:MainLight';
+    font-size: 1.5mm;
+    color: #666666;
+}
+
+ChatMessageTextArea {
+    cn1-derive: 'TextArea';
+    border: 1pt cn1-pill-border #cccccc ;
+    font-family: 'native:MainLight';
+    font-size: 2.5mm;
+    padding: 1mm 2mm 1mm 2mm;
+    background-color: transparent;
+    
+}
+
+ChatMessageTextAreaDesktop {
+    cn1-derive: 'ChatMessageTextArea';
+    font-size: 3.5mm;
+}
+
+ChatMessageTextAreaMultiLine {
+    cn1-derive: 'TextArea';
+    border: 1pt solid  #cccccc;
+    border-radius: 2mm;
+    font-family: 'native:MainLight';
+    font-size: 2.5mm;
+    padding: 1mm 2mm 1mm 2mm;
+    background-color: transparent;
+}
+
+ChatMessageTextAreaDesktopMultiLine {
+    cn1-derive: 'ChatMessageTextAreaMultiLine';
+    font-size: 3.5mm;
+}
+
+ChatBubbleBadge {
+    cn1-derive: "Button";
+    font-size: 1.5mm;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin:0;
+    padding:0;
+    
+}
+
+ChatBubbleLikedBadge {
+    color: red;
+    border:none;
+    padding:0;
+    margin:0;
+    font-size: 1.5mm;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+
+TypingAnimation {
+    padding:0;
+    margin:0;
+    border:none;
+    background-color: transparent;
+}
+
+TypingAnimationDot {
+    padding:0;
+    margin:0;
+    border:none;
+    background-color:transparent;
+    color:#666666;
+    font-size: 1mm;
+}
+/* end C:\Users\Eric\Pjct\CodenameOne\Ant\FeaturesCN\lib\impl\css\RADChatRoom\theme.css*/
+
+/* C:\Users\Eric\Pjct\CodenameOne\Ant\FeaturesCN\css\theme.css */
+#Constants {
+    includeNativeBool: true; 
+    PopupDialogArrowBool:true;
+    /*hide humburger*/
+    hideLeftSideMenuBool: true;
+    /*device-phone-font-scale: "1.5";
+    device-tablet-font-scale: "1.2";*/
+}
+
+Default {
+    background: transparent;
+    color: #3399ff;/*#15E7FF*/
+}
+
+Form {
+    border: none;
+    background-color: #ffffff;
+}
+
+Table {
+    background-color: #ffffff;
+}
+
+/*SwipeableContainer {
+    background-color: #ffffff;
+}*/
+
+/*remove default dark bg color in windows dialogs*/
+Dialog {
+    background: transparent;
+    border: none;
+}
+
+/*set sidemenu bg color*/
+SideNavigationPanel {
+    background: white;
+}
+
+multiBtn {
+    background-color: #ffffff;
+}
+parSideNav {
+    background: white;
+    padding: 0mm;
+    border: 0mm;
+}
+
+topBar {
+    background: #15E7FF;
+    padding: 3mm;
+    margin: 0mm 0mm 1mm 0mm;
+    border: none;
+    font-family: "native:MainLight";
+    font-size: 3.5mm       
+}
+
+tbar {
+    border: none;
+    background-color: #15E7FF;
+    padding: 0mm; 
+    margin: 0mm;
+    /*background-color: #3399ff;
+    text-align: center;
+    */
+}
+
+lblTitle {
+    color: white; font-family: "native:MainRegular"; text-align: center;
+    font-size: 3.5mm; padding: 2mm 0mm 2mm 0mm; border: none; background: transparent;
+}
+
+@media device-tablet, density-high {
+    lblTitle {
+        color: white; font-family: "native:MainRegular"; text-align: center;
+        font-size: 6.1mm; padding: 2mm 0mm 2mm 0mm; border: none; background: transparent;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblTitle {
+        color: white; font-family: "native:MainRegular"; text-align: center;
+        font-size: 4.4mm; padding: 2mm 0mm 2mm 0mm; border: none; background: transparent;
+    }
+}
+
+lblITitle {
+    color: white;
+    font-family: "heebo";
+    text-align: center;
+    font-size: 3.5mm;
+    padding: 2mm 0mm 2mm 0mm;
+    border: none;
+    background: transparent;
+}
+
+lblD1ITitle {
+    color: #15E7FF;
+    font-family: "heebo";
+    text-align: center;
+    font-size: 3.5mm;
+    padding: 2mm 0mm 2mm 0mm;
+    border: none;
+    background: transparent;
+}
+
+lblATitle {
+    color: white;
+    font-family: "heebo";
+    text-align: center;
+    font-size: 3.5mm;
+    padding: 2mm 0mm 2mm 0mm;
+    margin-right: 5.8mm;
+    border: none;
+    background: transparent;
+}
+
+lblD1ATitle {
+    color: #15E7FF;
+    font-family: "heebo";
+    text-align: center;
+    font-size: 3.5mm;
+    padding: 2mm 0mm 2mm 0mm;
+    margin-right: 5.8mm;
+    border: none;
+    background: transparent;
+}
+
+lblWTitle {
+    color: white;
+    font-family: "heebo";
+    text-align: center;
+    font-size: 3.5mm;
+    padding: 2mm 0mm 2mm 0mm;
+    margin-right: 9mm;
+    border: none;
+    background: transparent;
+}
+
+lblD1WTitle {
+    color: #15E7FF;
+    font-family: "heebo";
+    text-align: center;
+    font-size: 3.5mm;
+    padding: 2mm 0mm 2mm 0mm;
+    margin-right: 9mm;
+    border: none;
+    background: transparent;
+}
+
+lblSearch {
+    color: white; font-family: "native:MainRegular"; text-align: left;
+    font-size: 3.5mm; padding: 2mm 0mm 2mm 0mm; border: none; background: transparent;
+}
+
+@media device-tablet, density-high {
+    lblSearch {
+        color: white; font-family: "native:MainRegular"; text-align: left;
+        font-size: 6.1mm; padding: 2mm 0mm 2mm 0mm; border: none; background: transparent;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblSearch {
+        color: white; font-family: "native:MainRegular"; text-align: left;
+        font-size: 4.4mm; padding: 2mm 0mm 2mm 0mm; border: none; background: transparent;
+    }
+}
+
+menuSearch {
+    color: white;
+    font-family: "heebo";
+    text-align: center;
+    font-size: 3.5mm;
+    padding: 2mm 0mm 2mm 0mm;
+    margin-right: 5.8mm;
+    border: none;
+    background: transparent;
+}
+
+@media device-tablet, density-high {
+    lblTitleTab {
+        color: white; font-family: "native:MainRegular"; text-align: center;
+        font-size: 6mm; padding: 2mm 0mm 2mm 0mm; border: none; background: transparent;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblTitleTab {
+        color: white; font-family: "native:MainRegular"; text-align: center;
+        font-size: 4.3mm; padding: 1mm 0mm 1mm 0mm; border: none; background: transparent;
+    }
+}
+
+lblD1TitleTab {
+    color: #15E7FF;
+    font-family: "native:MainRegular";
+    text-align: center;
+    font-size: 5mm;
+    padding: 2mm 0mm 2mm 0mm;
+    border: none;
+    background: transparent;
+}
+
+cntMenus {
+    background: transparent;
+    margin-top: 2mm;
+    margin-bottom: 1mm;
+}
+
+menuLbl {
+    font-family: "native:MainLight"; background: transparent; text-align: center;
+    color: #3399ff; font-size: 2.4mm; margin-top: 0.5mm; padding: 0mm;
+}
+
+@media device-tablet, density-high {
+    menuLbl {
+        font-family: "native:MainLight"; background: transparent; 
+        text-align: center; color: #3399ff; font-size: 5mm; margin-top: 0.5mm; 
+        padding: 0mm; 
+    }
+}
+
+@media device-desktop, density-medium {
+    menuLbl {
+        font-family: "native:MainLight"; background: transparent; 
+        text-align: center; color: #3399ff; font-size: 3.3mm; margin-top: 0.5mm; 
+        padding: 0mm; 
+    }
+}
+
+menuLblBtn {
+    font-family: "native:MainLight"; background: transparent; text-align: center; 
+    color: #3399ff; font-size: 2.4mm; margin: 0; padding: 0mm;
+}
+
+@media device-tablet, density-high {
+    menuLblBtnTab {
+        font-family: "native:MainLight"; background: transparent; 
+        text-align: center; color: #3399ff; font-size: 5mm; margin: 0; padding: 0mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    menuLblBtnTab {
+        font-family: "native:MainLight"; background: transparent; 
+        text-align: center; color: #3399ff; font-size: 3.3mm; margin: 0; padding: 0mm;
+    }
+}
+
+
+menuParRound {
+    /*(borderWidth, color, Round menu) - 1pt #3399ff cn1-round-border
+      (borderWidth, color, Rect menu)  border: 3pt #3399ff solid;*/
+    border: cn1-round-border; background: #15E7FF; padding: 0mm; margin: 0mm;
+}
+
+menuImgRound {
+    /*(borderWidth, color, Round menu) - 1pt #3399ff cn1-round-border
+      (borderWidth, color, Rect menu)  border: 3pt #3399ff solid;*/
+    border: 1pt #15E7FF cn1-round-border; background: #15E7FF;
+    padding: 1mm; margin: 0.5mm;
+}
+
+@media device-tablet, density-high {
+    menuImgRoundTab {
+        border: 1pt #15E7FF cn1-round-border; background: #15E7FF;
+        padding: 2mm; margin: 1mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    menuImgRoundTab {
+        border: 1pt #15E7FF cn1-round-border; background: #15E7FF;
+        padding: 1mm; margin: 0.5mm;
+    }
+}
+
+menuImgBg {
+    background-color: transparent;
+    margin-bottom: 2mm;
+}
+
+cntPar {
+    margin: 2mm;
+    background-color: #ffffff;
+}
+
+btnMap {
+    font-family: "native:MainLight";
+    background: transparent;
+    text-align: center;
+    color: #3399ff;
+    font-size: 3mm;
+    margin-bottom: 2mm;
+    padding: 0;
+}
+
+btn {
+    font-family: "native:MainRegular"; font-size: 2.7mm; color: white; 
+    background-color: #3399ff; border: 0.2mm cn1-pill-border; 
+    padding: 2mm 1mm 2mm 1mm; margin: 0.5mm; text-align: center;
+}
+
+@media device-tablet, density-high {
+    btn {
+        font-family: "native:MainRegular"; font-size: 5mm; color: white; 
+        background-color: #3399ff; border: 0.2mm cn1-pill-border; 
+        padding: 4mm 1mm 4mm 1mm; margin: 0.5mm; text-align: center;
+    }
+}
+
+@media device-desktop, density-medium {
+    btn {
+        font-family: "native:MainRegular"; font-size: 3.3mm; color: white; 
+        background-color: #3399ff; border: 0.2mm cn1-pill-border; 
+        padding: 3mm 1mm 3mm 1mm; margin: 0.5mm; text-align: center;
+    }
+}
+
+btnNav {
+    font-family: "native:MainRegular"; font-size: 2.7mm; color: #3399ff;
+    background-color: #D1EBF4; border-radius: 0mm 3mm 0mm 3mm; 
+    padding: 1mm 1mm 1mm 1mm; margin: 0.5mm 0.5mm 0.5mm 2mm; text-align: center;
+}
+
+@media device-tablet, density-high {
+    btnNav {
+        font-family: "native:MainRegular"; font-size: 4mm; color: #3399ff;
+        background-color: #D1EBF4; border-radius: 0mm 3mm 0mm 3mm; 
+        padding: 2mm 1mm 2mm 1mm; margin: 0.5mm 0.5mm 0.5mm 2mm; text-align: center;
+    }
+}
+
+@media device-desktop, density-medium {
+    btnNav {
+        font-family: "native:MainRegular"; font-size: 3.3mm; color: #3399ff;
+        background-color: #D1EBF4; border-radius: 0mm 3mm 0mm 3mm; 
+        padding: 1.5mm 1mm 1.5mm 1mm; margin: 0.5mm 0.5mm 0.5mm 2mm; text-align: center;
+    }
+}
+
+btnNavSel {
+    font-family: "native:MainRegular"; font-size: 2.7mm; color: white;
+    background-color: #15E7FF; border-radius: 0mm 3mm 0mm 3mm;
+    padding: 1mm 1mm 1mm 1mm; margin: 0.5mm 0.5mm 0.5mm 2mm; text-align: center;
+}
+
+@media device-tablet, density-high {
+    btnNavSel {
+        font-family: "native:MainRegular"; font-size: 4mm; color: white;
+        background-color: #15E7FF; border-radius: 0mm 3mm 0mm 3mm;
+        padding: 2mm 1mm 2mm 1mm; margin: 0.5mm 0.5mm 0.5mm 2mm; text-align: center;
+    }
+}
+
+@media device-desktop, density-medium {
+    btnNavSel {
+        font-family: "native:MainRegular"; font-size: 3.3mm; color: white;
+        background-color: #15E7FF; border-radius: 0mm 3mm 0mm 3mm;
+        padding: 1.5mm 1mm 1.5mm 1mm; margin: 0.5mm 0.5mm 0.5mm 2mm; text-align: center;
+    }
+}
+
+cntSocial {
+    font-family: "native:MainRegular";
+    font-size: 2.7mm;
+    color: white;
+    background-color: blue;
+    border-radius: 0mm 3mm 0mm 3mm;
+    padding: 0.4mm;
+    margin: 0.5mm;
+    text-align: center;
+}
+
+cntSocialSel {
+    font-family: "native:MainRegular";
+    font-size: 2.7mm;
+    color: white;
+    background-color: #15E7FF;
+    border-radius: 0mm 3mm 0mm 3mm;
+    padding: 0.4mm;
+    margin: 0.5mm;
+    text-align: center;
+}
+
+btnSocial {
+    font-family: "native:MainRegular";
+    font-size: 2.3mm;
+    color: white;
+    margin: 0.5mm;
+    text-align: left;
+}
+
+lblSocial {
+    margin: 0.7mm 0mm 0.7mm 0.7mm;
+    padding: 0mm;
+}
+
+btnTabsNav {
+    font-family: "native:MainRegular"; font-size: 2.7mm; color: white; 
+    padding: 1mm 1mm 1mm 1mm; margin: 0.5mm; text-align: center;
+}
+
+@media device-tablet, density-high {
+    btnTabsNav {
+        font-family: "native:MainRegular"; font-size: 5.3mm; color: white; 
+        padding: 1mm 1mm 1mm 1mm; margin: 0.5mm; text-align: center;
+    }
+}
+
+@media device-desktop, density-medium {
+    btnTabsNav {
+        font-family: "native:MainRegular"; font-size: 3.6mm; color: white; 
+        padding: 1mm 1mm 1mm 1mm; margin: 0.5mm; text-align: center;
+    }
+}
+
+btnTabsNavSel {
+    font-family: "native:MainRegular"; font-size: 2.7mm; color: #29293D; 
+    padding: 1mm 1mm 1mm 1mm; margin: 0.5mm; text-align: center;
+}
+
+@media device-tablet, density-high {
+    btnTabsNavSel {
+        font-family: "native:MainRegular"; font-size: 5.3mm; color: #29293D; 
+        padding: 1mm 1mm 1mm 1mm; margin: 0.5mm; text-align: center;
+    }
+}
+
+@media device-desktop, density-medium {
+    btnTabsNavSel {
+        font-family: "native:MainRegular"; font-size: 3.6mm; color: #29293D; 
+        padding: 1mm 1mm 1mm 1mm; margin: 0.5mm; text-align: center;
+    }
+}
+
+cntBorder {
+    padding: 0.1mm 1mm 0.1mm 1mm; margin: 0mm 1mm 2mm 1mm; background-color: #29293D;
+}
+
+@media density-high, density-medium {
+    cntBorder {
+        padding: 0.2mm 1mm 0.2mm 1mm; margin: 0mm 1mm 2mm 1mm; background-color: #29293D;
+    }
+}
+
+
+btnMapNavSel {
+    font-family: "native:MainRegular";
+    font-size: 2.7mm;
+    color: #15E7FF;
+    background-color: white;
+    border: 0.2mm  cn1-pill-border;
+    padding: 1mm 1mm 1mm 1mm;
+    margin: 0.5mm;
+    text-align: center;
+}
+
+
+btn.pressed {
+    font-family: "native:MainRegular";
+    font-size: 2mm;
+    color: blue;
+    background-color: gray;
+    border: 0.2mm  cn1-pill-border;
+    padding: 1mm 1mm 1mm 1mm;
+    margin: 0.5mm;
+    text-align: center;
+}
+
+btnSwipe {
+    margin: 0mm 1mm 0mm 3mm;
+    padding: 0mm;
+
+}
+
+tfLay {
+    padding-top: 0.6mm; padding-bottom: 0.6mm; border: 0.6pt #15E7FF solid;
+    border-radius: 2mm; background-color: #D1EBF4; margin: 2mm;
+}
+
+tf {
+    font-family: "native:MainLight"; font-size: 3mm; color: #29293D;
+    margin: 0.2mm 1mm 0.2mm 1mm; background-color: transparent;
+}
+
+@media device-tablet, density-high {
+    tf {
+        font-family: "native:MainLight"; font-size: 5mm; color: #29293D;
+        margin: 2mm 1mm 2mm 1mm; background-color: transparent;
+    }
+}
+
+@media device-desktop, density-medium {
+    tf {
+        font-family: "native:MainLight"; font-size: 3.3mm; color: #29293D;
+        margin: 1mm 1mm 1mm 1mm; background-color: transparent;
+    }
+}
+
+tfSearch {
+    text-align: center; font-family: "native:MainLight"; font-size: 3mm; 
+    color: #3399ff; margin: 0.2mm 1mm 0.2mm 1mm; background-color: transparent;
+}
+
+@media device-tablet, density-high {
+    tfSearch {
+        text-align: center; font-family: "native:MainLight"; font-size: 5mm; 
+        color: #3399ff; margin: 2mm 1mm 2mm 1mm; background-color: transparent;
+    }
+}
+
+@media device-desktop, density-medium {
+    tfSearch {
+        text-align: center; font-family: "native:MainLight"; font-size: 3.3mm; 
+        color: #3399ff; margin: 1mm 1mm 1mm 1mm; background-color: transparent;
+    }
+}
+
+tfHint {
+    font-family: "native:MainLight"; font-size: 3mm; color: #3399ff; 
+    margin: 0.2mm 1mm 0.2mm 1mm;
+}
+
+@media device-tablet, density-high {
+    tfHint {
+        font-family: "native:MainLight"; font-size: 5mm; color: #3399ff; 
+        margin: 0.2mm 1mm 0.2mm 1mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    tfHint {
+        font-family: "native:MainLight"; font-size: 3.3mm; color: #3399ff; 
+        margin: 0.2mm 1mm 0.2mm 1mm;
+    }
+}
+
+tfSearchHint {
+    text-align: center; font-family: "native:MainLight"; font-size: 3mm;
+    color: #3399ff; margin: 0.2mm 1mm 0.2mm 1mm;
+}
+
+@media device-tablet, density-high {
+    tfSearchHint {
+        text-align: center; font-family: "native:MainLight"; font-size: 5mm;
+        color: #3399ff; margin: 0.2mm 1mm 0.2mm 1mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    tfSearchHint {
+        text-align: center; font-family: "native:MainLight"; font-size: 3.3mm;
+        color: #3399ff; margin: 0.2mm 1mm 0.2mm 1mm;
+    }
+}
+
+tabs {
+    background: #15E7FF;
+    color: white;
+    font-family: "native:MainRegular";
+    font-size: 3mm;
+    text-align: center;
+    border: none;
+    /*    margin: 1mm 2mm 1mm 2mm;
+        padding: 1.5mm 0mm 1.5mm 0mm; */
+    margin: 0mm;
+    padding: 0mm;
+}
+
+/*TabsContainer {
+    background-color: purple;
+}*/
+
+TabbedPane {
+    background-color: white; 
+    margin: 0mm;
+    padding: 0mm;
+    border: none;
+}
+
+cntTabBtns {
+    background-color: #15E7FF;
+    border: none;
+    margin: 0mm;
+    padding: 0mm;
+}
+
+
+cntTabsAnd {
+    background: #15E7FF;
+    color: white;
+    font-family: "native:MainRegular";
+    font-size: 3mm;
+    text-align: center;
+    border: none;
+    margin: 1mm 2mm 1mm 2mm;
+    padding: 0mm 0mm 1mm 0mm; 
+}
+
+selAndTab {
+    background: blue;
+    color: white;
+    font-family: "native:MainRegular";
+    font-size: 3mm;
+    text-align: center;
+    border: none;
+    margin: 1mm 2mm 1mm 2mm;
+    padding: 0mm 0mm 1mm 0mm; 
+}
+
+cntTabsWin {
+    /*background-color: red;
+    color: white;
+    font-family: "native:MainRegular";
+    font-size: 3mm;
+    text-align: center;
+    border: none;
+    margin: 1mm 2mm 1mm 2mm;
+    padding: 1.5mm 0mm 1.5mm 0mm; */
+
+    background: #15E7FF;
+    margin: 0mm 0mm 0mm 0mm;
+    padding: 0mm 0mm 0mm 0mm;
+    /*color: white;
+    font-family: "native:MainRegular";
+    font-size: 5mm;
+    text-align: center;
+    border: none;
+    */
+}
+
+cntTabsIOS {
+    background: white;
+    color: #15E7FF;
+    font-family: "native:MainRegular";
+    font-size: 3mm;
+    text-align: center;
+    border: none;
+    margin: 0mm 2mm 0mm 2mm;
+    padding: 1.5mm 0mm 1.5mm 0mm; 
+}
+
+cntTabParAnd {
+    background-color: white;
+    margin: 0mm;
+    padding: 0mm;
+}
+
+cntTabParWin {
+    background-color: white;
+    margin: 0mm;
+    padding: 0mm;
+}
+
+cntTabParIOS {
+    background: white;
+    margin: 0mm;
+    padding: 0mm;
+}
+
+btnTab {
+    background: #15E7FF;
+}
+
+btnTabLbl {
+    color: blue;
+}
+
+
+
+lblAdsTitle {
+    color: #15E7FF; font-family: "native:MainRegular"; text-align: center; 
+    font-size: 3mm; padding: 2mm 0mm 2mm 0mm; border: none;
+}
+
+@media device-tablet, density-high {
+    lblAdsTitle {
+        color: #15E7FF; font-family: "native:MainRegular"; text-align: center; 
+        font-size: 5.6mm; padding: 2mm 0mm 2mm 0mm; border: none;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblAdsTitle {
+        color: #15E7FF; font-family: "native:MainRegular"; text-align: center; 
+        font-size: 3.9mm; padding: 2mm 0mm 2mm 0mm; border: none;
+    }
+}
+
+cntAdsImg { margin: 0mm; padding: 0mm; border: none; }
+
+lblAdsMsg {
+    color: blue; font-family: "native:MainThin"; text-align: center;
+    font-size: 2.7mm; padding: 2mm 0mm 2mm 0mm; border: none; margin: 2mm;
+}
+
+@media device-tablet, density-high {
+    lblAdsMsg {
+        color: blue; font-family: "native:MainThin"; text-align: center;
+        font-size: 5.3mm; padding: 2mm 0mm 2mm 0mm; border: none; margin: 2mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblAdsMsg {
+        color: blue; font-family: "native:MainThin"; text-align: center;
+        font-size: 3.6mm; padding: 2mm 0mm 2mm 0mm; border: none; margin: 2mm;
+    }
+}
+
+lblBottomNav {
+    font-family: "native:MainLight"; background: transparent; text-align: center;
+    color: #3399ff; font-size: 2.4mm; margin: 0mm 0mm 2mm 0mm; padding: 0;
+}
+
+@media device-tablet, density-high {
+    lblBottomNav {
+        font-family: "native:MainLight"; background: transparent; text-align: center;
+        color: #3399ff; font-size: 5mm; margin: 0mm 0mm 2mm 0mm; padding: 0;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblBottomNav {
+        font-family: "native:MainLight"; background: transparent; text-align: center;
+        color: #3399ff; font-size: 3.3mm; margin: 0mm 0mm 2mm 0mm; padding: 0;
+    }
+}
+
+lblBottomNavSel {
+    font-family: "native:MainLight"; background: transparent; text-align: center;
+    color: #29293D; font-size: 2.4mm; margin: 0mm 0mm 2mm 0mm; padding: 0;
+}
+
+@media device-tablet, density-high {
+    lblBottomNavSel {
+        font-family: "native:MainLight"; background: transparent; text-align: center;
+        color: #29293D; font-size: 5mm; margin: 0mm 0mm 2mm 0mm; padding: 0;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblBottomNavSel {
+        font-family: "native:MainLight"; background: transparent; text-align: center;
+        color: #29293D; font-size: 3.3mm; margin: 0mm 0mm 2mm 0mm; padding: 0;
+    }
+}
+
+navCnt{
+    background: transparent;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    margin: 0mm 2mm 0mm 2mm;
+}
+
+cntNavPar {
+    background: white;
+    padding: 0mm;
+    margin: 0mm;
+    border: none;
+} 
+
+navIcon {
+    background: transparent;
+    /*margin-left: 1mm;*/
+    margin-right: 1.5mm;
+}
+
+navLbl {
+    background: transparent;
+    color: white; 
+    font-family: "native:MainLight";
+    text-align: center;
+    font-size: 3.5mm;
+}
+
+lblUser { background: transparent; color: white;  
+          font-family: "native:ItalicLight"; font-size: 2.4mm; }
+
+@media device-tablet, density-high {
+    lblUser { background: transparent; color: white;  
+              font-family: "native:ItalicLight"; font-size: 6mm; 
+    }
+}
+
+@media device-desktop, density-medium {
+    lblUser { background: transparent; color: white;  
+              font-family: "native:ItalicLight"; font-size: 4.3mm; 
+    }
+}
+
+popLbl {
+    font-family: "native:MainLight"; background: transparent; text-align: left; 
+    color: #3399ff; font-size: 2.2mm; margin: 0mm 0mm 0mm 1mm; padding: 0mm;
+}
+
+@media device-tablet, density-high {
+    popLbl {
+        font-family: "native:MainLight"; background: transparent; text-align: left; 
+        color: #3399ff; font-size: 4.5mm; margin: 0mm 0mm 0mm 1mm; padding: 0mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    popLbl {
+        font-family: "native:MainLight"; background: transparent; text-align: left; 
+        color: #3399ff; font-size: 3mm; margin: 0mm 0mm 0mm 1mm; padding: 0mm;
+    }
+}
+
+popBtn {
+    font-family: "native:MainLight"; background: transparent; text-align: left;
+    color: #3399ff; font-size: 2.2mm; margin: 0mm; padding: 0mm;
+}
+
+@media device-tablet, density-high {
+    popBtnTab {
+        font-family: "native:MainLight"; background: transparent; text-align: left;
+        color: #3399ff; font-size: 4.5mm; margin: 0mm; padding: 0mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    popBtnTab {
+        font-family: "native:MainLight"; background: transparent; text-align: left;
+        color: #3399ff; font-size: 3mm; margin: 0mm; padding: 0mm;
+    }
+}
+
+popImg { text-align: center;  margin: 0mm 0mm 2mm 0mm; }
+
+chk {
+    font-family: "native:MainLight"; background: transparent; text-align: left;
+    color: #3399ff; font-size: 2.3mm; margin: 1mm; padding: 0mm;
+}
+
+@media  device-tablet, density-high {
+    chkTab {
+        font-family: "native:MainLight"; background: transparent; text-align: left;
+        color: #3399ff; font-size: 4.5mm; margin: 1.5mm; padding: 0mm;
+    }
+}
+
+@media  device-desktop, density-medium {
+    chkTab {
+        font-family: "native:MainLight"; background: transparent; text-align: left;
+        color: #3399ff; font-size: 3mm; margin: 1mm; padding: 0mm;
+    }
+}
+
+rad {
+    font-family: "native:MainLight"; background: transparent; text-align: left;
+    color: #3399ff; font-size: 2.3mm; margin: 1mm 1mm 1mm 2mm; padding: 0mm;
+}
+
+@media  device-tablet, density-high {
+    radTab {
+        font-family: "native:MainLight"; background: transparent; text-align: left;
+        color: #3399ff; font-size: 4.5mm; margin: 1mm 1mm 1mm 2mm; padding: 0mm;
+    }
+}
+
+@media  device-desktop, density-medium {
+    radTab {
+        font-family: "native:MainLight"; background: transparent; text-align: left;
+        color: #3399ff; font-size: 3mm; margin: 1mm 1mm 1mm 2mm; padding: 0mm;
+    }
+}
+
+autoTf {
+    font-family: "native:MainLight";
+    background: blue;
+    text-align: left;
+    color: #3399ff;
+    font-size: 2.4mm;
+    margin: 0mm 0mm 0mm 1mm;
+    padding: 0mm;
+}
+
+fab {
+    background-color: #15E7FF;
+    color: #ffffff;
+}
+
+lblDetail {
+    font-family: "native:MainLight";
+    background: transparent;
+    text-align: center;
+    color: #3399ff;
+    font-size: 3mm;
+    padding: 0mm;
+    margin: 0mm;
+}
+
+lblMultiBtn {
+    font-family: "native:MainLight";
+    background: transparent;
+    text-align: left;
+    color: #3399ff;
+    font-size: 2.5mm;
+    padding: 0mm; margin: 0mm 1mm 0mm 1mm;
+}
+
+lblChartDesc {
+    font-family: "native:MainLight";
+    background: transparent;
+    text-align: center;
+    color: #3399ff;
+    font-size: 2.5mm;
+}
+
+lblInput {
+    font-family: "native:MainLight"; background: transparent; text-align: left;
+    color: #3399ff; font-size: 2.5mm; padding: 0mm; margin: 0mm;
+}
+
+@media device-tablet, density-high {
+    lblInput {
+        font-family: "native:MainLight"; background: transparent; text-align: left; 
+        color: #3399ff; font-size: 5mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblInput {
+        font-family: "native:MainLight"; background: transparent; text-align: left; 
+        color: #3399ff; font-size: 3.3mm;
+    }
+}
+
+lblChartDescTab {
+    font-family: "native:MainLight";
+    background: transparent;
+    text-align: center;
+    color: #3399ff;
+    font-size: 5mm;
+}
+
+cntChat {
+    margin: 2mm; background: transparent;
+} 
+
+tfMsgLay {
+    padding: 1mm 0mm 1mm 0mm; background: transparent; border-radius: 5mm; 
+    border: 0.6pt #00FBEB solid; margin: 0mm;
+}
+
+@media device-tablet, density-high {
+    tfMsgLay {
+        padding: 1mm 0mm 1mm 0mm; background: transparent; border-radius: 7.5mm; 
+        border: 0.6pt #00FBEB solid; margin: 0mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    tfMsgLay {
+        padding: 1mm 0mm 1mm 0mm; background: transparent; border-radius: 6mm; 
+        border: 0.6pt #00FBEB solid; margin: 0mm;
+    }
+}
+
+tfMsgLayAnd {
+    padding: 1mm 0mm 1mm 0mm; background: transparent; border-radius: 4mm; 
+    border: 0.6pt #00FBEB solid; margin: 0mm;
+}
+
+tfMsg {
+    font-family: "native:MainThin"; font-size: 2.5mm; color: #3399ff;  text-align: left;
+    background: transparent; margin: 1mm 2mm 1mm 2mm;
+}
+
+@media device-tablet, density-high {
+    tfMsg {
+        font-family: "native:MainThin"; font-size: 5mm; color: #3399ff;  text-align: left;
+        background: transparent; margin: 1mm 2mm 1mm 2mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    tfMsg {
+        font-family: "native:MainThin"; font-size: 3.3mm; color: #3399ff;  text-align: left;
+        background: transparent; margin: 1mm 2mm 1mm 2mm;
+    }
+}
+
+tfMsgHint {
+    font-family: "native:MainThin"; font-size: 2.5mm; color: #3399ff; text-align: left;
+    background: transparent; margin: 1mm 2mm 1mm 2mm;
+}
+
+@media device-tablet, density-high {
+    tfMsgHint {
+        font-family: "native:MainThin"; font-size: 5mm; color: #3399ff; text-align: left;
+        background: transparent; margin: 1mm 2mm 1mm 2mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    tfMsgHint {
+        font-family: "native:MainThin"; font-size: 3.3mm; color: #3399ff; text-align: left;
+        background: transparent; margin: 1mm 2mm 1mm 2mm;
+    }
+}
+
+btnSend {
+    border: 0.2mm cn1-pill-border; background-color: #00FBEB; padding: 1mm;
+}
+
+Switch {
+    background-color: #00FBEB; color: blue; font-size: 1.5mm;
+}
+
+@media device-tablet, density-high {
+    Switch { background-color: #00FBEB; color: blue; font-size: 5mm; }
+}
+
+@media device-desktop, density-medium {
+    Switch { background-color: #00FBEB; color: blue; font-size: 2.4mm; }
+}
+
+customToastBar { background: #15E7FF; }
+
+lblToastBar {
+    font-family: "native:MainLight"; background: transparent; text-align: left;
+    color: white; font-size: 2.5mm; padding: 0mm; margin: 0mm;
+}
+
+@media device-tablet, density-high {
+    lblToastBar {
+        font-family: "native:MainLight"; background: transparent; text-align: left; 
+        color: white; font-size: 5mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblToastBar {
+        font-family: "native:MainLight"; background: transparent; text-align: left; 
+        color: white; font-size: 3.3mm;
+    }
+}
+
+sliderProgress { padding: 2mm; }
+
+lblAccordTitle {
+    font-family: "native:MainRegular"; background: transparent; text-align: left;
+    color: #3399ff; font-size: 3mm; margin: 0mm;
+}
+
+@media device-tablet, density-high {
+    lblAccordTitle {
+        font-family: "native:MainRegular"; background: transparent; text-align: left;
+        color: #3399ff; font-size: 5.6mm; margin: 0mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblAccordTitle {
+        font-family: "native:MainRegular"; background: transparent; text-align: left;
+        color: #3399ff; font-size: 3.9mm; margin: 0mm; padding: 0mm; border: none;
+    }
+}
+
+lblAccord {
+    font-family: "native:MainLight"; background: transparent; text-align: left;
+    color: #3399ff; font-size: 2.5mm; margin: 0mm 2mm 2mm 3mm;
+}
+
+@media device-tablet, density-high {
+    lblAccord {
+        font-family: "native:MainLight"; background: transparent; text-align: left;
+        color: #3399ff; font-size: 5.1mm; margin: 0mm 2mm 2mm 3mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblAccord {
+        font-family: "native:MainLight"; background: transparent; text-align: left;
+        color: #3399ff; font-size: 3.4mm; margin: 0mm 2mm 2mm 3mm;
+    }
+}
+
+txtProgMsg {
+    background: transparent;
+    /*background-color: red;*/
+    text-align: left;
+    margin: 0mm;
+    border: none;
+    padding: 0mm;
+}
+
+cntParSent {
+    margin: 1mm 1mm 1mm 1mm;
+    /*background-color: red;*/
+}
+
+cntBg {
+    margin: 0mm;
+    border: none;
+    padding: 0mm;
+    /*background-color: red;*/
+}
+
+lblMsgDate {
+    font-family: "native:MainRegular"; font-size: 2mm; color: white; 
+    background-color: #15E7FF; border: 0.5pt #15E7FF solid; border-radius: 1mm;
+    padding: 1mm; margin: 0.5mm; text-align: center;
+}
+
+@media device-tablet, density-high {
+    lblMsgDate {
+        font-family: "native:MainRegular"; font-size: 4mm; color: white; 
+        background-color: #15E7FF; border: 0.5pt #15E7FF solid; border-radius: 1mm;
+        padding: 1mm; margin: 0.5mm; text-align: center;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblMsgDate {
+        font-family: "native:MainRegular"; font-size: 3mm; color: white; 
+        background-color: #15E7FF; border: 0.5pt #15E7FF solid; border-radius: 1mm;
+        padding: 1mm; margin: 0.5mm; text-align: center;
+    }
+}
+
+lblSentMsg {
+    margin: 1mm 1mm 0mm 1mm; font-family: "native:MainLight"; background: transparent;
+    text-align: left; color: #3399ff; font-size: 2.5mm; padding: 0mm;
+}
+
+@media device-tablet, density-high {
+    lblSentMsg {
+        margin: 1mm 1mm 0mm 1mm; font-family: "native:MainLight"; background: transparent;
+        text-align: left; color: #3399ff; font-size: 4.5mm; padding: 0mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblSentMsg {
+        margin: 1mm 1mm 0mm 1mm; font-family: "native:MainLight"; background: transparent;
+        text-align: left; color: #3399ff; font-size: 3mm; padding: 0mm;
+    }
+}
+
+lblSentStatus {
+    margin: 0mm; padding: 0mm; font-family: "native:MainLight"; 
+    background: transparent; text-align: left; color: #3399ff; font-size: 2.5mm;
+}
+
+@media device-tablet, density-high {
+    lblSentStatus {
+        margin: 0mm; padding: 0mm; font-family: "native:MainLight"; 
+        background: transparent; text-align: left; color: #3399ff; font-size: 4.5mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblSentStatus {
+        margin: 0mm; padding: 0mm; font-family: "native:MainLight"; 
+        background: transparent; text-align: left; color: #3399ff; font-size: 3mm;
+    }
+}
+
+lblRecvMsg {
+    margin: 1mm 1mm 0mm 1mm; padding: 0mm; font-family: "native:MainLight"; 
+    background: transparent; text-align: left; color: black; font-size: 2.5mm;
+}
+
+@media device-tablet, density-high {
+    lblRecvMsg {
+        margin: 1mm 1mm 0mm 1mm; padding: 0mm; font-family: "native:MainLight"; 
+        background: transparent; text-align: left; color: black; font-size: 4.5mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblRecvMsg {
+        margin: 1mm 1mm 0mm 1mm; padding: 0mm; font-family: "native:MainLight"; 
+        background: transparent; text-align: left; color: black; font-size: 3mm;
+    }
+}
+
+lblRecvStatus {
+    margin: 0mm; padding: 0mm; font-family: "native:MainLight"; 
+    background: transparent; text-align: left; color: black; font-size: 2.5mm;   
+}
+
+@media device-tablet, density-high {
+    lblRecvStatus {
+        margin: 0mm; padding: 0mm; font-family: "native:MainLight"; 
+        background: transparent; text-align: left; color: black; font-size: 4.5mm;   
+    }
+}
+
+@media device-desktop, density-medium {
+    lblRecvStatus {
+        margin: 0mm; padding: 0mm; font-family: "native:MainLight"; 
+        background: transparent; text-align: left; color: black; font-size: 3mm;   
+    }
+}
+
+cntStatus {
+    margin: 0mm 2mm 1mm 1mm;
+    padding: 0mm;
+}
+
+AutoCompletePopup {
+    background-color: #ffffff;
+    color: #15E7FF;
+}
+
+/*AutoCompleteList {
+    color: red;
+}*/
+
+cntBottomNav {
+    margin-bottom: 4mm;
+}
+
+LikeButton {
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+
+/*Default received chat bubble*/
+/*ChatBubbleSpanLabelOther {
+    background-color: cyan;
+}*/
+
+/*Custom received chat bubble*/
+ChatBubbleSpanLabelOther {
+    border-image: url(images/chat_bubble_recv.png);
+    /*    set source DPI of image*/
+    cn1-source-dpi: 480;
+    /*    set how image is sliced to 9-piece border (top, right,bottom, left)*/
+    border-image-slice: 5% 1% 94% 5%;
+    padding-left: 1mm;
+    padding-right: 0;
+}
+
+ChatBubbleTextOther {
+    color: black;
+    background: transparent;
+    margin: 2mm;
+}
+
+/*Default sent chat bubble*/
+/*ChatBubbleSpanLabelOwn {
+    background-color: green;
+}*/
+
+/*Custom sent chat bubble*/
+ChatBubbleSpanLabelOwn {
+    border-image: url(images/chat_bubble_sent.png);
+    cn1-source-dpi: 480;
+    border-image-slice: 5% 5% 94% 1%;
+    padding-right: 1mm;
+    padding-left:0;
+}
+
+ChatBubbleTextOwn {
+    color: black;
+    background: transparent;
+    margin: 2mm;
+}
+
+cntSuccess {
+    background: white;
+}
+
+statusDialog {
+    border: none;
+    background: white;
+    margin: 0mm;
+    padding: 1mm 2mm 1mm 2mm;
+}
+
+@media device-phone {
+    lblStatus {
+        font-family: "native:MainLight";
+        background: transparent;
+        text-align: center;
+        color: #3399ff;
+        font-size: 3mm;
+        padding: 0mm;
+        margin-bottom: 2mm;
+    }
+}
+
+@media device-tablet {
+    lblStatus {
+        font-family: "native:MainLight";
+        background: transparent;
+        text-align: center;
+        color: #3399ff;
+        font-size: 6mm;
+        padding: 0mm;
+        margin-bottom: 2mm;
+    }
+}
+
+btnDialog {
+    font-family: "native:MainRegular";
+    font-size: 2mm;
+    color: white;
+    background-color: blue;
+    border: 0.2mm blue cn1-pill-border;
+    padding: 1.5mm 5mm 1.5mm 5mm;
+    margin: 0mm;
+    text-align: center; 
+}
+
+btnCancel {
+    font-family: "native:MainRegular";
+    font-size: 2mm;
+    color: blue;
+    background-color: #15E7FF;
+    border: 0.2mm #15E7FF cn1-pill-border;
+    padding: 1.5mm 5mm 1.5mm 5mm;
+    margin: 0mm;
+    text-align: center; 
+}
+
+lblAnim {
+    padding: 0mm;
+    margin: 0mm;
+}
+
+InfiniteProgress {
+    background: blue;
+}
+
+imgV {
+    padding: 3.9mm 0mm 3.9mm 0mm;
+    margin: 0mm 3.7mm 0mm 3.7mm;
+}
+
+cntDir {
+    background: white;
+    margin: 0mm;
+}
+
+CircleAnim {
+    /*    background: #15E7FF;*/
+    color: blue;
+}
+
+textAnim {
+    /*#15E7FF  #BDE2EF  #C8E8F3  #D1EBF4*/
+    color: #D1EBF4;
+}
+
+fab1 {
+    background-color: green;
+    color: white;
+}
+
+fab2 {
+    background-color: black;
+    color: #15E7FF;
+}
+
+DemoLabel{
+    font-size: 5mm;
+}
+
+/***************************
+DESIGNS
+****************************/
+cntDesignBg {
+    background: white; border-radius: 5mm 5mm 0mm 0mm; margin: 0mm; padding: 0mm;
+}
+
+/*Design 1 = Storage Drives*************/
+cntDesign1Bg {
+    background: #E2DED0; border-radius: 0mm 0mm 5mm 5mm; margin: 0mm; padding: 3mm;
+    border: none;
+}
+
+btnUserImg { margin: 0mm; padding: 0mm; }
+
+lblUserName {
+    font-size: 3mm; color: #1F51FF; margin: 0mm 0mm 0mm 1.5mm; padding: 0mm; color: black;  
+}
+
+@media device-tablet, density-high {
+    lblUserName {
+        font-size: 5.6mm; color: #1F51FF; margin: 0mm 0mm 0mm 1.5mm; padding: 0mm; color: black;  
+    }
+}
+
+@media device-desktop, density-medium {
+    lblUserName {
+        font-size: 3.9mm; color: #1F51FF; margin: 0mm 0mm 0mm 1.5mm; padding: 0mm; color: black;  
+    }
+}
+
+cntMenu {
+    background: white; border-radius: 2mm; margin: 2mm 2mm 2mm 0mm; padding: 0mm 3mm 0mm 3mm;
+}
+
+lblWelcome { margin: 0mm 0mm 0mm 1.5mm; padding: 0mm; font-size: 2mm; color: #1F51FF; }
+
+@media device-tablet, density-high {
+    lblWelcome { margin: 0mm 0mm 0mm 1.5mm; padding: 0mm; font-size: 4mm; color: #1F51FF; }
+}
+
+@media device-desktop, density-medium {
+    lblWelcome { margin: 0mm 0mm 0mm 1.5mm; padding: 0mm; font-size: 2.9mm; color: #1F51FF; }
+}
+
+btnDrive { margin-top: 1mm; background: transparent; }
+
+lblDrive { margin-bottom: 1mm; text-align: center; font-size: 2mm; color: black; }
+
+@media device-tablet, density-high {
+    lblDrive { margin-bottom: 1mm; text-align: center; font-size: 4mm; color: black; }
+}
+
+@media device-desktop, density-medium {
+    lblDrive { margin-bottom: 1mm; text-align: center; font-size: 2.9mm; color: black; }
+}
+
+btnSubMenu { margin: 1mm; }
+
+cntFilePar { margin: 2mm; }
+
+lblFiles { margin: 0mm 2mm 0mm 0mm; padding: 0mm; color: white; font-size: 2mm; }
+
+@media device-tablet, density-high {
+    lblFiles { margin: 0mm 2mm 0mm 0mm; padding: 0mm; color: white; font-size: 4mm; }
+}
+
+@media device-desktop, density-medium {
+    lblFiles { margin: 0mm 2mm 0mm 0mm; padding: 0mm; color: white; font-size: 2.9mm; }
+}
+
+lblFilesTitle { padding: 0mm; margin: 0mm; color: #1F51FF; font-size: 2.5mm; }
+
+@media device-tablet, density-high {
+    lblFilesTitle { padding: 0mm; margin: 0mm; color: #1F51FF; font-size: 5.1mm; }
+}
+
+@media device-desktop, density-medium {
+    lblFilesTitle { padding: 0mm; margin: 0mm; color: #1F51FF; font-size: 3.4mm; }
+}
+
+cntFile { background: #87CEEB; border-radius: 2mm; margin-top: 2mm; padding: 1mm; }
+/*End Design 1********************/
+
+/*Design 2 - Account****************/
+
+btnToolbar { padding: 0mm; margin: 1mm; }
+
+lblSummary {
+    text-align: center; margin: 0mm; padding: 0mm; color: white; font-size: 2mm;
+}
+
+@media device-tablet, density-high {
+    lblSummary {
+        text-align: center; margin: 0mm; padding: 0mm; color: white; font-size: 4mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblSummary {
+        text-align: center; margin: 0mm; padding: 0mm; color: white; font-size: 2.9mm;
+    }
+}
+
+cntTop { margin: 2mm; }
+
+cntUser { margin: 0mm 0mm 2mm 0mm; padding: 0mm; }
+
+lblBal { color: white; font-size: 2mm; padding: 0mm; margin: 0mm; }
+
+@media device-tablet, density-high {
+    lblBal { color: white; font-size: 4mm; padding: 0mm; margin: 0mm; }
+}
+
+@media device-desktop, density-medium {
+    lblBal { color: white; font-size: 2.9mm; padding: 0mm; margin: 0mm; }
+}
+
+lblAmt { color: white; font-size: 3.5mm; padding: 0mm; margin: 0mm; }
+
+@media device-tablet, density-high {
+    lblAmt { color: white; font-size: 6.1mm; padding: 0mm; margin: 0mm; }
+}
+
+@media device-desktop, density-medium {
+    lblAmt { color: white; font-size: 4.4mm; padding: 0mm; margin: 0mm; }
+}
+
+cntDesign2Par { margin: 0mm; padding: 0mm; border: none; }
+
+cntSmoothCurve1 { margin: 0mm; padding: 0mm; border: none; }
+
+cntSmoothCurve2 { margin: 0mm; padding: 5mm; border: none; }
+
+cntDesign2BgContent { background: white; margin: 4mm 0mm 0mm 0mm; padding: 0mm;
+                      border: none;
+}
+
+cntMenuBtn { background: white; border-radius: 2mm; margin: 2mm 2mm 0mm 0mm; 
+             padding: 1.5mm 3mm 1.5mm 3mm; text-align: center; font-size: 2mm;
+}
+
+@media device-tablet, density-high {
+    cntMenuBtn { background: white; border-radius: 2mm; margin: 2mm 2mm 0mm 0mm; 
+                 padding: 1.5mm 3mm 1.5mm 3mm; text-align: center; font-size: 4.6mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    cntMenuBtn { background: white; border-radius: 2mm; margin: 2mm 2mm 0mm 0mm; 
+                 padding: 1.5mm 3mm 1.5mm 3mm; text-align: center; font-size: 3.3mm;
+    }
+}
+
+cntCardPar { margin: 0mm 2mm 1mm 2mm; }
+
+lblMyCards { color: #000080; margin: 0mm; padding: 0mm; }
+
+@media device-tablet, density-high {
+    lblMyCards { color: #000080; margin: 0mm; padding: 0mm; font-size: 4.6mm; }
+}
+
+@media device-desktop, density-medium {
+    lblMyCards { color: #000080; margin: 0mm; padding: 0mm; font-size: 3.3mm; }
+}
+
+cntCard {
+    background: #1F51FF; border-radius: 2mm; margin: 2mm 3mm 0mm 3mm; padding: 0mm;
+}
+
+cntLogo { margin: 2mm 0mm 4mm 0mm; }
+
+cntLbl { margin: 0mm 0mm 2mm 2mm; }
+
+cntBottomPar { background: white; padding: 0mm; margin: 0mm;  border: none; }
+
+cntBottomMenus {
+    background: #000080; margin: 2.5mm 0mm 0mm 0mm; padding: 0mm; border: none;
+}
+
+btnBottomMenu {
+    background: transparent; padding: 0mm; margin: 0mm 0mm 1mm 0mm; background: transparent;
+}
+
+lblStmtIcon {
+    background: transparent; border: 0.2mm cn1-pill-border; padding: 0mm; margin: 0mm;
+}
+
+lblDate { padding: 0mm; margin: 0mm; color: gray; text-align: right; font-size: 2mm; }
+
+@media device-tablet, density-high {
+    lblDate { padding: 0mm; margin: 0mm; color: gray; text-align: right; font-size: 4mm; }
+}
+
+@media device-desktop, density-medium {
+    lblDate { padding: 0mm; margin: 0mm; color: gray; text-align: right; font-size: 2.9mm; }
+}
+
+btnList { text-align: center; background: #000080; border: 0.2mm cn1-pill-border;
+          padding: 0.5mm 2mm 0.5mm 2mm; margin: 0mm;
+}
+
+@media device-tablet, density-high {
+    btnList { text-align: center; background: #000080; border: 0.2mm cn1-pill-border;
+              padding: 2mm 4mm 2mm 4mm; margin: 0mm;
+    }
+}
+
+/*End design 2**/
+
+/*Design 3 - Home Screen**/
+
+cntBgImg { margin: 0mm; padding: 0mm; border: none; }
+
+cntMid { background: #E2DED0; border: cn1-pill-border; margin: 0mm 2mm 0mm 2mm; }
+
+cntMidContent {
+    background: transparent; padding: 0mm; margin: 0mm 0mm 0mm 1mm; border: none;
+}
+
+cntFillWidth { background: transparent; padding: 0mm; margin: 0mm; }
+
+btnMidMenu {
+    text-align: center; font-size: 3mm; background: #ffff00; 
+    border: 0.2mm cn1-pill-border; padding: 1mm; margin: 0.5mm 0.5mm 1mm 1mm;
+}
+
+btnMidMenuBlue {
+    text-align: center; font-size: 3mm; background: #3684C3;
+    border: 0.2mm cn1-pill-border; padding: 1mm; margin: 0.5mm 1mm 0.5mm 0.5mm;
+}
+
+lblMid1 { color: black; font-size: 2.5mm; padding: 0mm; margin: 0mm; }
+
+@media device-tablet, density-high {
+    lblMid1 { color: black; font-size: 4.5mm; padding: 0mm; margin: 0mm; }
+}
+
+@media device-desktop, density-medium {
+    lblMid1 { color: black; font-size: 3.4mm; padding: 0mm; margin: 0mm; }
+}
+
+lblMid2 { color: black; font-size: 2mm; padding: 0mm; margin: 0mm; }
+
+@media device-tablet, density-high {
+    lblMid2 { color: black; font-size: 4mm; padding: 0mm; margin: 0mm; }
+}
+
+@media device-desktop, density-medium {
+    lblMid2 { color: black; font-size: 2.9mm; padding: 0mm; margin: 0mm; }
+}
+
+cntContent { margin: 5mm 1mm 1mm 1mm; }
+
+btnDsg3Menu { 
+    text-align: center; background: #E2DED0; border: 0.2mm cn1-pill-border;
+    padding: 1mm; margin: 2mm; 
+}
+
+lblDsg3Date { font-size: 3mm; color: black; padding-left: 0mm; margin-left: 2mm; }
+
+@media device-tablet, density-high {
+    lblDsg3Date { font-size: 5.6mm; color: black; padding-left: 0mm; margin-left: 2mm; }
+}
+
+@media device-desktop, density-medium {
+    lblDsg3Date { font-size: 3.9mm; color: black; padding-left: 0mm; margin-left: 2mm; }
+}
+
+lblDsg3Desc { color: #3684C3; font-size: 2mm; margin: 1mm 0mm 0mm 2mm; padding: 0mm; }
+
+@media device-tablet, density-high {
+    lblDsg3Desc { color: #3684C3; font-size: 4mm; margin: 1mm 0mm 0mm 2mm; padding: 0mm; }
+}
+
+@media device-desktop, density-medium {
+    lblDsg3Desc { color: #3684C3; font-size: 2.9mm; margin: 1mm 0mm 0mm 2mm; padding: 0mm; }
+}
+
+cntDsg3BottomMenus { margin: 2mm; }
+
+btnDsg3Bottom {
+    color: white; text-align: center; font-size: 3mm; background: #E2DED0;
+    border: 0.2mm cn1-pill-border; padding: 1mm 3mm 1mm 3mm;
+}
+
+@media device-tablet, density-high {
+    btnDsg3Bottom {
+        color: white; text-align: center; font-size: 5.6mm; background: #E2DED0;
+        border: 0.2mm cn1-pill-border; padding: 1mm 3mm 1mm 3mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    btnDsg3Bottom {
+        color: white; text-align: center; font-size: 3.9mm; background: #E2DED0;
+        border: 0.2mm cn1-pill-border; padding: 1mm 3mm 1mm 3mm;
+    }
+}
+
+btnDsg3BottomSel {
+    color: white; text-align: center; font-size: 3mm; background: #3684C3;
+    border: 0.2mm cn1-pill-border; padding: 1mm 3mm 1mm 3mm;
+}
+
+@media device-tablet, density-high {
+    btnDsg3BottomSel {
+        color: white; text-align: center; font-size: 5.6mm; background: #3684C3;
+        border: 0.2mm cn1-pill-border; padding: 1mm 3mm 1mm 3mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    btnDsg3BottomSel {
+        color: white; text-align: center; font-size: 3.9mm; background: #3684C3;
+        border: 0.2mm cn1-pill-border; padding: 1mm 3mm 1mm 3mm;
+    }
+}
+
+/*End design 3**/
+
+/*Design 5 - Media Player*****/
+
+cntDsg5Top { background: transparent; margin: 2mm; }
+
+lblDsg5Files { 
+    text-align: center; margin: 0mm 2mm 2mm 2mm; padding: 0mm; 
+    color: white; font-size: 2mm; 
+}
+
+@media device-tablet, density-high  {
+    lblDsg5Files { 
+        text-align: center; margin: 0mm 2mm 2mm 2mm; padding: 0mm; 
+        color: white; font-size: 4mm; 
+    }
+}
+
+@media device-desktop, density-medium  {
+    lblDsg5Files { 
+        text-align: center; margin: 0mm 2mm 2mm 2mm; padding: 0mm; 
+        color: white; font-size: 2.9mm; 
+    }
+}
+
+cntDsg5SqrCircle { padding: 0mm; margin: 0mm; }
+
+cntDsg5File { background: transparent; margin: 0mm; padding: 1mm; }
+
+cntDsg5FileSel { background: transparent; margin: 1mm; padding: 0mm; }
+
+cntDsg5BorderPar { padding: 0mm; margin: 0mm; }
+
+cntDsg5Border { padding: 0.1mm 1mm 0.1mm 1mm; margin: 0mm; background: gray; }
+
+@media desity-high, density-medium {
+    cntDsg5Border { padding: 0.2mm 1mm 0.2mm 1mm; margin: 0mm; background: gray; }
+}
+
+cntDsg5BottomPar { background: #CC7722; border-radius: 5mm 5mm 0mm 0mm;
+                   margin: 0mm 0mm 0mm 0mm; padding: 0mm; border: none; }
+
+cntDsg5Bottom { background: transparent; border-radius: 0mm; 
+                margin: 0mm 0mm 0mm 0mm; padding: 0mm; border: none; }
+
+cntDsg5BottomContent { background: transparent; border-radius: 5mm 5mm 0mm 0mm;
+                       margin: 0mm 0mm 0mm 0mm; padding: 0mm; border: none; }
+
+cntDsg5Menu1 { background: white; border-radius: 5mm 5mm 0mm 0mm; margin: 0mm; 
+               padding: 0mm; border: none; }
+
+btnDsg5Browse { padding: 0mm; margin: 0mm; }
+
+cntDsg5Menu2Par { background: transparent; margin: 0mm; padding: 0mm; border: none; }
+
+cntDsg5Menu2Bg { background: white; padding: 0mm; margin: 0mm; }
+
+cntMenu2BgTop { background: #CC7722; padding: 0mm; margin: 0mm; }
+
+cntDsg5Menu2Fg { background: transparent; padding: 0; margin: 0mm; }
+
+cntDsg5Menu3 { 
+    background: white; border-radius: 5mm 5mm 0mm 0mm; margin: 0mm;  
+    padding: 0mm; border: none;
+}
+
+cntDsg5BottomFloat { 
+    background: transparent; border: cn1-pill-border; 
+    margin: 0mm; padding: 0mm; border: none;
+}
+
+btnDsg5Float { 
+    background: black; border: cn1-pill-border; 
+    margin: 0mm 0mm 1mm 0mm; padding: 1mm; border: none;
+}
+
+@media device-tablet, density-high {
+    btnDsg5Float { 
+        background: black; border: cn1-pill-border; 
+        margin: 0mm 0mm 7mm 0mm; padding: 3mm; border: none;
+    }
+}
+
+@media device-desktop, density-medium {
+    btnDsg5Float { 
+        background: black; border: cn1-pill-border; 
+        margin: 0mm 0mm 7mm 0mm; padding: 1mm; border: none;
+    }
+}
+
+formDsgn5Progress { background: transparent; margin: 0mm; padding: 0mm; }
+
+/*End Design 5****/
+
+lblContent {
+    font-family: "native:MainLight";
+    background: transparent;
+    text-align: center;
+    color: #3399ff;
+    font-size: 2.5mm;
+    padding: 0mm;
+    margin: 2mm;
+}
+
+cntSlider {
+    margin: 2mm 0mm 0mm 0mm;
+}
+
+sliderProgress {
+    background: transparent;
+    /*        background-color: rgba(0, 0, 0, 0);*/
+    color: blue;
+}
+
+formParAnim {
+    margin: 2mm 0mm 0mm 2mm;
+}
+
+formProgressBar {
+    margin: 2mm 2mm 2mm 2mm;
+}
+
+CircleBars {
+    margin: 2mm 2mm 2mm 2mm;
+}
+
+cntHorizontalAnim1 {
+    background-color: blue;
+    padding: 0.3mm 2mm 0.3mm 2mm;
+    /*    margin: 0mm 0.5mm 0mm 0.5mm;*/
+    margin: 0mm;
+}
+
+cntHorizontalAnim1Sel {
+    background-color: #15E7FF;
+    padding: 0.3mm 2mm 0.3mm 2mm;
+    /*    margin: 0mm 0.5mm 0mm 0.5mm;*/
+    margin: 0mm;
+}
+
+cntHorizontalAnim2 {
+    background-color: blue;
+    padding: 0.4mm 1.5mm 0.3mm 1.5mm;
+    margin: 0mm 0.5mm 0mm 0.5mm;
+
+}
+
+cntHorizontalAnim2Sel {
+    background-color: #15E7FF;
+    padding: 0.4mm 1.5mm 0.3mm 1.5mm;
+    margin: 0mm 0.5mm 0mm 0.5mm;
+}
+
+/*CIRCLE ANIMS*******************/
+
+formParCircleAnim {
+    /*   background-color: purple;*/
+    margin: 2mm 0mm 0mm 2mm;
+
+}
+cnt1CircleAnim1 {
+    margin: 0mm;
+    padding: 0mm;
+    border: none;
+    /*    background-color: green;*/
+}
+rad1CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 0mm 0mm 0mm 0mm;
+}
+
+rad2CircleAnim1 { 
+    background-color: transparent;
+    padding: 0mm;
+    margin: 0mm 1mm 1mm 1mm;
+}
+
+rad3CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 0mm 0mm 0mm 0mm;
+}
+
+lblSpace {
+    padding: 0mm 0mm 0mm 0mm; 
+}
+cnt2And4 {
+    /*    background: white;*/
+    margin: 0mm;
+    padding: 0mm;
+    border: none;
+}
+
+cnt2CircleAnim1 {
+    margin: 0mm 0mm 0mm 3.5mm; padding: 0mm; border: none;
+}
+
+@media devive-tablet, density-high {
+    cnt2CircleAnim1 {
+        margin: 0mm 0mm 0mm 7mm; padding: 0mm; border: none;
+    }
+}
+
+@media devive-desktop, density-medium {
+    cnt2CircleAnim1 {
+        margin: 0mm 0mm 0mm 7mm; padding: 0mm; border: none;
+    }
+}
+rad4CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 0mm 0.8mm 0mm 0mm;
+}
+
+rad5CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 1mm 0mm 1mm 0mm;
+}
+
+rad6CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 0mm 0.8mm 0mm 0mm;
+}
+
+cnt3CircleAnim1 {
+    margin: 0mm;
+    padding: 0mm;
+    border: none;
+    /*    background-color: green;*/
+}
+
+rad7CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 0.5mm 0mm 0mm 0mm;
+}
+
+rad8CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 1mm 1.1mm 0mm 1.1mm;
+}
+
+rad9CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 0.5mm 0mm 0mm 0mm;
+}
+
+cnt4CircleAnim1 { margin: 0mm 3mm 0mm 0mm; padding: 0mm; border: none; }
+
+@media device-tablet, media-high {
+    cnt4CircleAnim1 { margin: 0mm 7mm 0mm 0mm; padding: 0mm; border: none; }
+}
+
+@media device-desktop, media-medium {
+    cnt4CircleAnim1 { margin: 0mm 7mm 0mm 0mm; padding: 0mm; border: none; }
+}
+
+rad10CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 0mm 0.7mm 0mm 0mm;
+}
+
+rad11CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 1mm 1.5mm 1mm 0mm;
+}
+
+rad12CircleAnim1 {
+    background-color: transparent;
+    padding: 0mm;
+    margin: 0mm 0.7mm 0mm 0mm;
+}
+
+/*Wave Anims******/
+cntWaveBarsPar {
+    background: transparent;
+}
+
+cntWaveBars {
+    margin-top: 15mm;
+    background: transparent;
+}
+
+waveBars {
+    background: transparent;
+    margin-top: 10mm;
+}
+
+/*HorizontalWaveBar Anim************/
+formParWave3Anim {
+    margin-top: 2mm;
+    background: transparent;
+}
+
+cntHorizontalWaveBar0 {
+    background-color: #0000FF;
+    padding: 1mm 0.3mm 1mm 0.3mm;
+    margin: 1mm 0.3mm 1mm 0.2mm;
+}
+
+cntHorizontalWaveBar1 {
+    background-color: #0000FF;
+    padding: 1mm 0.3mm 1mm 0.3mm;
+    margin: 2mm 0.3mm 0mm 0.2mm;
+}
+
+cntHorizontalWaveBar2 {
+    background-color: #0000FF;
+    padding: 1mm 0.3mm 1mm 0.3mm;
+    margin: 3mm 0.3mm 0mm 0.2mm;
+}
+
+cntHorizontalWaveBar5 {
+    background-color: #0000FF;
+    padding: 1mm 0.3mm 1mm 0.3mm;
+    margin: 0mm 0.3mm 2mm 0.2mm;
+}
+
+cntHorizontalWaveBar6 {
+    background-color: #0000FF;
+    padding: 1mm 0.3mm 1mm 0.3mm;
+    margin: 0mm 0.3mm 3mm 0.2mm;
+}
+
+/*HorizontalWaveCircle Anim************/
+
+cntHorizontalWaveCircle0 {
+    background-color: #0000FF;
+    padding: 0.5mm 0.5mm 0.5mm 0.5mm;
+    margin: 1mm 0mm 1mm 0mm;
+}
+
+cntHorizontalWaveCircle1 {
+    background-color: #0000FF;
+    padding: 0.5mm 0.5mm 0.5mm 0.5mm;
+    margin: 2mm 0mm 0mm 0mm;
+}
+
+cntHorizontalWaveCircle2 {
+    background-color: #0000FF;
+    padding: 0.5mm 0.5mm 0.5mm 0.5mm;
+    margin: 3mm 0mm 0mm 0mm;
+}
+
+cntHorizontalWaveCircle5 {
+    background-color: #0000FF;
+    padding: 0.5mm 0.5mm 0.5mm 0.5mm;
+    margin: 0mm 0mm 2mm 0mm;
+}
+
+cntHorizontalWaveCircle6 {
+    background-color: #0000FF;
+    padding: 0.5mm 0.5mm 0.5mm 0.5mm;
+    margin: 0mm 0mm 3mm 0mm;
+}
+/****************************/
+
+
+cntHorizontalWaveBarsSel {
+    background: green;
+    /*    padding: 1.5mm 0.5mm 1.5mm 0.5mm;
+        margin: 0mm 0.5mm 0mm 0.5mm;*/
+}
+
+cntMaskWave4 {
+    margin: 0mm;
+    padding: 0mm;
+    border: none;
+    /*    background: green;*/
+}
+lblMaskWave4 {
+    margin: 0mm;
+    padding: 0mm;
+}
+
+/*Scan Anim***/
+formScan {
+    margin: 2mm 0mm 2mm 0mm;
+}
+
+cntScanPar {
+    background: #E2DED0;
+    padding: 0mm;
+}
+
+cntScanAnim {
+    background-color: blue;
+    padding: 0.2mm 10mm 0.3mm 10mm;
+    margin: 0.5mm 0.5mm 0.5mm 0.5mm;
+}
+
+/*Bubble Anim***/
+cntBubble {
+    padding: 0.2mm;
+    margin: 1mm 0.5mm 1mm 0.5mm;
+    background: blue;
+    color: blue;
+    border: cn1-pill-border;
+}
+
+cntBubbleSel {
+    padding: 1.5mm;
+    margin: 1mm 0.5mm 1mm 0.5mm;
+    background: blue;
+    color: blue;
+    border: cn1-pill-border;
+}
+
+cntBubbleSmall {
+    padding: 0.5mm;
+    margin: 1mm 0.5mm 1mm 0.5mm;
+    background: blue;
+    border: cn1-pill-border;
+}
+
+cntBubbleMedium {
+    padding: 1.3mm;
+    margin: 1mm 0.5mm 1mm 0.5mm;
+    background: blue;
+    border: cn1-pill-border;
+}
+
+cntBubbleLarge {
+    padding: 1.8mm;
+    margin: 1mm 0.5mm 1mm 0.5mm;
+    background: blue;
+    border: cn1-pill-border;
+}
+
+/*CUSTOM KEYBOARD*****************/
+tfFill {
+    padding-top: 0.5mm; padding-bottom: 0.5mm;
+}
+
+lblPinHint {
+    font-family: "native:MainLight"; text-align: center; color: #3399ff;
+    font-size: 3mm; margin: 0mm; padding: 0mm;
+}
+
+@media device-tablet, density-high {
+    lblPinHint {
+        font-family: "native:MainLight"; text-align: center; color: #3399ff;
+        font-size: 6mm; margin: 0mm; padding: 0mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblPinHint {
+        font-family: "native:MainLight"; text-align: center; color: #3399ff;
+        font-size: 4mm; margin: 0mm; padding: 0mm;
+    }
+}
+
+cntBtnKey {
+    border: 0.6pt #15E7FF solid; border-radius: 2mm; background-color: #D1EBF4;
+    margin: 2mm;
+}
+
+btnKey {
+    color: blue; font-size: 4mm; padding: 1mm 3mm 1mm 3mm; text-align: center; 
+    background: transparent;
+}
+
+@media device-tablet, density-high {
+    btnKey {
+        color: blue; font-size: 7mm; padding: 1mm 4.5mm 1mm 4.5mm; text-align: center; 
+        background: transparent;
+    }
+}
+
+@media device-desktop, density-medium {
+    btnKey {
+        color: blue; font-size: 4.3mm; padding: 1mm 3.5mm 1mm 3.5mm; text-align: center; 
+        background: transparent;
+    }
+}
+
+btnKeyDel {
+    padding: 1.4mm 2.3mm 1.4mm 2.3mm; text-align: center; background: transparent;
+}
+
+@media device-tablet, density-high {
+    btnKeyDel {
+        padding: 1mm 2.8mm 1mm 2.8mm; text-align: center; background: transparent;
+    }
+}
+
+@media device-desktop, density-medium {
+    btnKeyDel {
+        padding: 1.4mm 2.3mm 1.4mm 2.3mm; text-align: center; background: transparent;
+    }
+}
+
+cntPin { margin: 1mm; padding: 0mm; background: transparent; }
+
+cntNum {
+    padding: 1.5mm; margin: 1mm 2mm 1mm 2mm; background: gray; color: gray;
+    border: cn1-pill-border;
+}
+
+cntLblNum {
+    margin: 1mm 2mm 1mm 2mm; border: 0.6pt #15E7FF cn1-pill-border; 
+    background-color: #D1EBF4; 
+}
+
+lblNum {
+    padding: 1mm;  margin: 0.5mm; background: #cccccc; color: #cccccc; 
+    border: cn1-pill-border; text-align: center;
+}
+
+@media device-tablet, density-high {
+    lblNum {
+        padding: 2.5mm;  margin: 0.5mm; background: #cccccc; color: #cccccc; 
+        border: cn1-pill-border; text-align: center;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblNum {
+        padding: 0mm;  margin: 0.1mm; background: #cccccc; color: #cccccc; 
+        border: cn1-pill-border; text-align: center; font-size: 0.5mm;
+    }
+}
+
+lblNumSel {
+    padding: 1mm; margin: 0.5mm; background: blue; color: blue; border: cn1-pill-border;
+}
+
+@media device-tablet, density-high {
+    lblNumSel {
+        padding: 2.5mm; margin: 0.5mm; background: blue; color: blue; border: cn1-pill-border;
+    }
+}
+
+@media device-desktop, density-medium {
+    lblNumSel {
+        padding: 0mm; margin: 0.1mm; background: blue; color: blue; 
+        border: cn1-pill-border; font-size: 0.5mm;  
+    }
+}
+
+/*Map************/
+
+lblMyLoc {
+    font-size: 3mm;
+    margin: 0mm 0mm 0mm 0mm;
+    padding: 0mm;
+    color: #0000FF;
+}
+
+btnZoom {
+    background: white;
+    color: #0000FF;
+    font-size: 5mm;
+    text-align: center;
+    border-radius: 2mm; 
+    padding: 2mm;
+    margin: 1mm;
+}
+
+lblBlock {
+    background: transparent;
+    padding: 0mm;
+    margin: 0mm;
+}
+
+
+lblMarkerAnim {
+    background: transparent;
+    border: 1pt #0000FF cn1-pill-border;
+}
+
+collapsingToolbarTitle {
+    font-family: "native:MainLight"; background: transparent; text-align: left;
+    color: blue; font-size: 3.5mm; padding: 0mm; margin: 0mm;
+}
+
+@media device-tablet, density-high {
+    collapsingToolbarTitle {
+        font-family: "native:MainLight"; background: transparent; text-align: left;
+        color: blue; font-size: 6.1mm; padding: 0mm; margin: 0mm;
+    }
+}
+
+@media device-desktop, density-medium {
+    collapsingToolbarTitle {
+        font-family: "native:MainLight"; background: transparent; text-align: left;
+        color: blue; font-size: 4.4mm; padding: 0mm; margin: 0mm;
+    }
+}
+
+/**Custom Tf***/
+
+cntCustomTf { margin: 2mm; }
+
+lblHint { margin: 0mm; color: blue; font-size: 2mm; background: transparent; padding: 0mm; }
+
+@media device-tablet, density-high {
+    lblHint { margin: 0mm; color: blue; font-size: 4mm; background: transparent; padding: 0mm; }
+}
+
+@media device-desktop, density-medium {
+    lblHint { margin: 0mm; color: blue; font-size: 2.3mm; background: transparent; padding: 0mm; }
+}
+
+tfHint { margin: 0mm; color: blue; font-size: 3mm;  background: transparent; padding: 0mm; }
+
+@media device-tablet, density-high {
+    tfHint { margin: 0mm; color: blue; font-size: 5.6mm;  background: transparent; padding: 0mm; }
+}
+
+@media device-desktop, density-medium {
+    tfHint { margin: 0mm; color: blue; font-size: 3.9mm;  background: transparent; padding: 0mm; }
+}
+
+btnTf { background: transparent; padding: 0mm; }
+
+tfCustom { font-size: 3mm; background: transparent; padding: 0mm; margin-left: 0mm; }
+
+@media device-tablet, density-high {
+    tfCustom { font-size: 5.6mm; background: transparent; padding: 0mm; margin-left: 0mm; }
+}
+
+@media device-desktop, density-medium {
+    tfCustom { font-size: 3.9mm; background: transparent; padding: 0mm; margin-left: 0mm; }
+}
+
+cntTfBorder { background: blue; padding: 0.1mm; margin: 0mm 0mm 1mm 0mm; }
+
+/**Custom Box Tf*/
+cntBoxTfPar { padding: 0mm;  margin: 0.5mm 0mm 0.5mm 0mm; background: white; }
+
+cntBoxTf { margin: 1mm 0mm 0mm 0mm; background: black; padding: 0mm; }
+
+lblBoxHint { 
+    margin: 0mm 0mm 0mm 3mm;  font-size: 2mm; padding:0mm 0.5mm 0mm 0mm; 
+    background: white;
+}
+
+@media device-tablet, density-high {
+    lblBoxHint { 
+        margin: 0mm 0mm 0mm 3mm;  font-size: 4mm; padding:0mm 0.5mm 0mm 0mm;
+        background: white; 
+    }
+}
+
+@media device-desktop, density-medium {
+    lblBoxHint { 
+        margin: 0mm 0mm 0mm 3mm;  font-size: 2.9mm; padding:0mm 0.5mm 0mm 0mm; 
+        background: white;
+    }
+}
+
+btnBoxTf { background: transparent; padding: 0mm; margin: 0.5mm; }
+
+cntBoxTfBg { margin: 0.1mm;  padding: 0mm; background: white; }
+
+tfBoxCustom { 
+    font-size: 3mm; padding: 2mm 0mm 2mm 0mm; margin: 0mm 0mm 0mm 2.5mm;
+    background: white; 
+}
+
+@media device-tablet, density-high {
+    tfBoxCustom { 
+        font-size: 5.6mm; padding: 2mm 0mm 2mm 0mm; margin: 0mm 0mm 0mm 2.5mm;
+        background: white;
+    }
+}
+
+@media device-desktop, density-medium {
+    tfBoxCustom { 
+        font-size: 3.9mm; padding: 2mm 0mm 2mm 0mm; margin: 0mm 0mm 0mm 2.5mm;
+        background: white; 
+    }
+}
+
+tfBoxHint {  font-size: 3mm;  margin: 0mm 0mm 0mm 2.5mm; padding: 0mm; }
+
+@media device-tablet, density-high {
+    tfBoxHint {  font-size: 5.6mm;  margin: 0mm 0mm 0mm 2.5mm; padding: 0mm; }
+}
+
+@media device-desktop, density-medium {
+    tfBoxHint { font-size: 3.9mm;  margin: 0mm 0mm 0mm 2.5mm; padding: 0mm; }
+}
+
+/*Share**/
+btnShare {
+    font-family: "native:MainLight"; background: transparent; text-align: center;
+    color: #3399ff; font-size: 2.4mm; margin-top: 3mm; padding: 0mm;
+}
+
+@media device-tablet, density-high {
+    btnShare {
+        font-family: "native:MainLight"; background: transparent; 
+        text-align: center; color: #3399ff; font-size: 5mm; margin-top: 3mm; 
+        padding: 0mm; 
+    }
+}
+
+@media device-desktop, density-medium {
+    btnShare {
+        font-family: "native:MainLight"; background: transparent; 
+        text-align: center; color: #3399ff; font-size: 3.3mm; margin-top: 3mm; 
+        padding: 0mm; 
+    }
+}
+/* End C:\Users\Eric\Pjct\CodenameOne\Ant\FeaturesCN\css\theme.css */
