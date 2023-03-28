@@ -1,9 +1,17 @@
-FeaturesCN shows implementation of Codename One Java cross platform features
+Available on Playstore
 
-• According to developer guide,
+https://play.google.com/store/apps/details?id=com.zomuhtech.cn.features
 
-• Some advanced Codename One native features and
+FeaturesCN shows implementation of Codename One Java cross platform features 
 
-• A few Android native features.
+ • According to developer guide, 
 
-References: https://www.codenameone.com https://www.codenameone.com/developer-guide.html
+ • Some advanced Codename One native features and 
+ 
+ • A few Android native features.
+
+References: 
+
+https://www.codenameone.com
+
+https://www.codenameone.com/developer-guide.html
