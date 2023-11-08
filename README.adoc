@@ -1,6 +1,3 @@
-Available on Playstore
-
-https://play.google.com/store/apps/details?id=com.zomuhtech.cn.features
 
 FeaturesCN shows implementation of Codename One Java cross platform features 
 
